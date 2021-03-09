@@ -1,4 +1,5 @@
 # Дипломный проект.
+Проект реализован в среде Google Colab.
 
 В данном проекте решена задача классификации изображений лиц на девять классов (девять эмоций) с категориальной точностью на приватной выборке 0.45360. 
 
@@ -10,7 +11,7 @@
  * Tensorflow 2.4.1
  * Keras 2.4.0
 
-## Закрузка модели в среде Google Colab:
+## Закрузка модели:
 ```
 # Устанавливаем и импортируем модуль для загрузки
 ! pip install gdown
@@ -24,4 +25,24 @@ gdown.download('https://drive.google.com/uc?id=1-HDQxtpZKGuKWQhsiDANyc41SL_CwHdU
 ```
 from tensorflow.keras import models
 model = models.load_model('model')
+```
+## Предобработка изображений:
+```
+# Модель разработана на основе VGG модели, поэтому предобработка аналогичная.
+# Для этого, скачиваем и устанавливаем сторонний модуль keras-vggface
+! pip install git+https://github.com/rcmalli/keras-vggface.git > /dev/null
+# Для дальнейшей работы с keras-vggface необходим модуль keras_apllications. Установим его.
+! pip install keras_applications > /dev/null
+
+from keras_vggface import utils
+from tensorflow.keras.preprocessing import image
+# Измените путь до изображения на нужный
+img = image.load_img('.../image.jpg', target_size=(224,224))
+img = image.img_to_array(img)
+img = img[None, ...]
+img = utils.preprocess_input(img)
+```
+## Предсказание и декодирование:
+```
+
 ```
