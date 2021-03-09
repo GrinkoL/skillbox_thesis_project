@@ -44,5 +44,9 @@ img = utils.preprocess_input(img)
 ```
 ## Предсказание и декодирование:
 ```
-
+# Словарь декодирования:
+clas_indices = {0:'anger', 1:'contempt', 2:'disgust', 3:'fear', 4:'happy', 5:'neutral', 6:'sad', 7:'surprise', 8:'uncertain'}
+id = np.argmax(model(img))
+emotion = clas_indices[id]
+print(emotion)
 ```
