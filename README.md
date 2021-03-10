@@ -13,6 +13,7 @@
 
 ## Загрузка модели:
 ```
+# Установка пакета для импорта ipynb файлов
 ! pip install install import-ipynb
 ! git clone https://github.com/GrinkoL/skillbox_thesis_project.git
 from skillbox_thesis_project.Import_model import Model
