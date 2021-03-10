@@ -11,12 +11,15 @@
  * Tensorflow 2.4.1
  * Keras 2.4.0
 
-## Загрузка и запуск предсказания модели:
+## Загрузка модели:
 ```
 ! pip install install import-ipynb
 ! git clone https://github.com/GrinkoL/skillbox_thesis_project.git
 from skillbox_thesis_project.Import_model import Model
 model = Model()
+```
+## Запуск предсказания модели:
+```
 # Замените имя файла с изображением на нужное
 model.predict('test/25.jpg')
 ```
