@@ -3,7 +3,10 @@
 
 В данном проекте решена задача классификации изображений лиц на девять классов (девять эмоций) с категориальной точностью на приватной выборке (на соответственном [kaggle сompetition](https://www.kaggle.com/c/skillbox-computer-vision-project)) 0.45360. Время инференса на одном jpg изображении ~ 60ms 
 
-Данные для воспроизведения обучения модели вы можете загрузить с [kaggle](https://www.kaggle.com/c/skillbox-computer-vision-project/data)
+Данные для воспроизведения обучения модели вы можете загрузить с [kaggle соревнования](https://www.kaggle.com/c/skillbox-computer-vision-project/data)
+Прымые сслыки для загрузки данных через python библиотеку gdown:
+* Train data https://drive.google.com/uc?id=1bGHeWeWYXj5biL9s-qTc9gyv91WNAbWE
+* Test data  https://drive.google.com/uc?id=1QdhIxh1QUEuLgRb7DWa7RA7CA08ybNRJ
 
 Поскольку разработанная в данном проекте модель достаточно тяжеловесная (1.34Gb), то разместить её на Github не представлялось возможным. Архив модели доступен для скачивания по [ссылке](https://drive.google.com/uc?id=1-HDQxtpZKGuKWQhsiDANyc41SL_CwHdU).
 
