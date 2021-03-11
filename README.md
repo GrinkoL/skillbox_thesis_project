@@ -8,6 +8,9 @@
 * Test data https://drive.google.com/uc?id=1bGHeWeWYXj5biL9s-qTc9gyv91WNAbWE
 * Train data  https://drive.google.com/uc?id=1QdhIxh1QUEuLgRb7DWa7RA7CA08ybNRJ
 
+В проекте выполена аугментация данных. Аугментированный теренеровочный набор изображений доступен по ссылке:
+* Aug_train data: 'https://drive.google.com/uc?id=1ZHqymPmcdUoR0XF3V1wz-kTCKKLz0_SX'
+
 Поскольку разработанная в данном проекте модель достаточно тяжеловесная (1.34Gb), то разместить её на Github не представлялось возможным. Архив модели доступен для скачивания по [ссылке](https://drive.google.com/uc?id=1-HDQxtpZKGuKWQhsiDANyc41SL_CwHdU).
 
 ## Версии используемых библиотек:
