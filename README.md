@@ -20,4 +20,4 @@
  * Keras 2.4.0
 
 ## Запуск предсказания модели:
-См. файл run_prediction_of_model.ipynb
+См. файл run_prediction_of_model.ipynb в корне проекта
