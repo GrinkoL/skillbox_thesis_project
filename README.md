@@ -20,4 +20,5 @@
  * Keras 2.4.0
 
 ## Запуск предсказания модели:
+Создайте новый .ipynb файл. Склонируйте проект !git clone https://github.com/GrinkoL/skillbox_thesis_project.git и запустите файл run_prediction_of_model.ipynb
 Загрузите модель и передайте путь до файла методу predict как это сделано в файле run_prediction_of_model.ipynb, расположенном в корне проекта.
