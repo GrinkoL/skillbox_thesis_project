@@ -25,6 +25,6 @@
 ## Запуск предсказания эмоции в реальном времени:
 Загрузите проект в корневую директорию Jupyter Notebook.
 
-Внимание(!), убедитесь, что файл с проектом называться skillbox_thesis_project!
+Внимание(!), убедитесь, что файл с проектом называться skillbox_thesis_project
 
 Запустите в среде Jupyter Notebook файл run_model_with_OpenCV.ipynb. 
