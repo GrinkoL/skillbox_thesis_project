@@ -27,4 +27,4 @@
 
 Внимание(!), убедитесь, что файл с проектом называться skillbox_thesis_project
 
-Запустите в среде Jupyter Notebook файл run_model_with_OpenCV.ipynb. 
+Запустите в среде Jupyter Notebook файл run_model_with_OpenCV.ipynb. Первый запуск будет долгим, т.к. будет загружаться модель (1.34 Gb). При повторных запусках модель уже загружаться не будет.
